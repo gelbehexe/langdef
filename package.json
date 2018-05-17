@@ -1,5 +1,5 @@
 {
-  "name": "langdef",
+  "name": "@gelbehexe/langdef",
   "version": "1.0.0",
   "description": "Converts *.langdef files to *.xlf files",
   "main": "index.js",
