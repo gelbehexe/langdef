@@ -1,0 +1,13 @@
+{
+  "label": "Symfony Format >= 4.0",
+  "conf": {
+	"dest": "../translations",
+	"xliffVersion": "1.2",
+	"namespace": "urn:oasis:names:tc:xliff:document:1.2",
+	"copyFileAttributes": true,
+	"header": false,
+	"pos": "append",
+	"useIdForSource": true,
+	"destType": "symfony"
+  }
+}

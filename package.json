@@ -1,0 +1,35 @@
+{
+  "name": "langdef",
+  "version": "1.0.0",
+  "description": "Converts *.langdef files to *.xlf files",
+  "main": "index.js",
+  "bin": {
+    "langdef": "./bin/langdef.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gelbehexe/langdef.git"
+  },
+  "author": "Petra Arentzen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gelbehexe/langdef/issues"
+  },
+  "homepage": "https://github.com/gelbehexe/langdef",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "date-format": "^1.2.0",
+    "deepmerge": "^2.1.0",
+    "fs": "0.0.1-security",
+    "html-entities": "^1.2.1",
+    "path": "^0.12.7",
+    "pretty-data": "^0.40.0",
+    "xml-reader": "^2.4.3",
+    "xml-writer": "^1.7.0"
+  }
+}

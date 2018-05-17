@@ -1,0 +1,19 @@
+{
+  "source": "",
+  "dest": "auto",
+  "defaultLocale": "en",
+  "pos": "prepend",
+  "xliffVersion": "1.0",
+  "namespace" : "",
+  "copyFileAttributes": true,
+  "hideDefault": true,
+  "header": true,
+  "extension": "xlf",
+  "useIdForSource": false,
+  "destType": "",
+  "noDate": true,
+  "addSourceLang": false,
+  "addTargetLang": false,
+  "extraFileAttrs": {},
+  "forceTarget": false
+}

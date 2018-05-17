@@ -1,0 +1,21 @@
+{
+  "label": "Symfony Format < 4.0",
+  "conf": {
+	"dest": "../translations",
+	"xliffVersion": "1.2",
+	"namespace": "urn:oasis:names:tc:xliff:document:1.2",
+	"copyFileAttributes": false,
+	"header": false,
+	"pos": "append",
+	"useIdForSource": true,
+	"destType": "symfony",
+	"hideDefault": false,
+	"addSourceLang": true,
+	"addTargetLang": true,
+	"noDate": true,
+	"extraFileAttrs": {
+	  "original": "file.ext"
+	},
+	"forceTarget": true
+  }
+}

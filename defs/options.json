@@ -1,0 +1,115 @@
+[
+  {
+	"name": "help",
+	"alias": "h",
+	"description": "Print usage information"
+  },
+  {
+	"name": "version",
+	"alias": "v",
+	"description": "Print current version"
+  },
+  {
+	"name": "listenv",
+	"description": "List environments"
+  },
+  {
+	"name": "showenv",
+	"type": "String",
+	"description": "Show environments"
+  },
+  {
+	"name": "source",
+	"alias": "s",
+	"type": "String",
+	"description": "source file '*.langdef' (required)"
+  },
+  {
+	"name": "dest",
+	"alias": "d",
+	"type": "String",
+	"description": "dest path or file without extension (relative to source path or absolute)"
+  },
+  {
+	"name": "type",
+	"alias": "t",
+	"type": "String",
+	"description": "Type of environment (${SET_LIST})"
+  },
+  {
+	"name": "hideDefault",
+	"alias": "l",
+	"type": "Boolean",
+	"description": "Hide key for default language in filename (default: true)"
+  },
+  {
+	"name": "defaultLocale",
+	"type": "String",
+	"description": "Set the default locale key (default: 'en')"
+  },
+  {
+	"name": "pos",
+	"alias": "p",
+	"type": "String",
+	"description": "Position of the locale key in file name <append|prepend> (default: 'append')"
+  },
+  {
+	"name": "namespace",
+	"type": "String",
+	"description": "Namespace attribute for xliff tag"
+  },
+  {
+	"name": "copyFileAttributes",
+	"type": "Boolean",
+	"description": "Whether to copy the original attributes from file tag (default: true)"
+  },
+  {
+	"name": "extraFileAttrs",
+	"type": "String",
+	"description": "File attributes to add to file tag (e.g. \"attr1=value1;attr2=value2\""
+  },
+  {
+	"name": "xliffVersion",
+	"alias": "r",
+	"type": "String",
+	"description": "xliff version to use (default: '1.0')"
+  },
+  {
+	"name": "header",
+	"alias": "e",
+	"type": "Boolean",
+	"description": "Whether to insert an empty header (default: true)"
+  },
+  {
+	"name": "extension",
+	"alias": "x",
+	"type": "String",
+	"description": "Extension for target files (default: 'xlf')"
+  },
+  {
+	"name": "useIdForSource",
+	"alias": "i",
+	"type": "Boolean",
+	"description": "Whether to use id for source (default: false)"
+  },
+  {
+	"name": "noDate",
+	"type": "Boolean",
+	"description": "No date in filetag (default: true)"
+  },
+  {
+	"name": "addSourceLang",
+	"type": "Boolean",
+	"description": "Whether to add a 'source-language' attribute to file tag (default: false)"
+  },
+  {
+	"name": "addTargetLang",
+	"type": "Boolean",
+	"description": "Whether to add a 'target-language' attribute to file tag (default: false)"
+  },
+  {
+	"name": "forceTarget",
+	"type": "Boolean",
+	"description": "Whether to always add 'target' entry (default: false)"
+  }
+]

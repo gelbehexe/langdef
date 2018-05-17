@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF8" standalone="yes"?>
+<langDef>
+	<file datatype="plaintext" original="messages" product-name="demo">
+		<entry id="sampleLLKey">
+			<source>english</source>
+			<translations>
+				<de>deutsch</de>
+				<fr>allemand</fr>
+			</translations>
+		</entry>
+		<entry id="folder">
+			<source>folder</source>
+			<translations>
+				<de>Verzeichnis</de>
+				<fr>annuaire</fr>
+			</translations>
+		</entry>
+		<entry id="hello_goodbye">
+			<source><![CDATA[Hello & Good Bye]]></source>
+			<translations>
+				<de><![CDATA[Hallo & Auf Wiedersehen]]></de>
+				<fr><![CDATA[Bonjour & au revoir]]></fr>
+			</translations>
+		</entry>
+		<entry id="html_greeting">
+			<source><![CDATA[Hello <strong>World</strong>]]></source>
+			<translations>
+				<de><![CDATA[Hallo <strong>Welt</strong>]]></de>
+				<fr><![CDATA[Bonjour <strong>Monde</strong>]]></fr>
+			</translations>
+		</entry>
+		<entry id="only_english">
+			<source>Only English</source>
+		</entry>
+		<entry id="only_german">
+			<source>Only German</source>
+			<translations>
+				<de>Nur deutsch</de>
+			</translations>
+		</entry>
+	</file>
+</langDef>
