@@ -10,7 +10,7 @@ $ npm install langdef
  
 ## Usage
 
-###Function
+### Function
 
 ```js
 const Langdef = require('../');
@@ -26,12 +26,12 @@ Langdef({
 	});
 ```
 
-###Terminal
+### Terminal
 ```bash
 langdef -t t3 -s /path/to/langdef/messages.langdef -d /tmp
 ```
 
-###Options
+### Options
 |name|description|default|
 |---|---|---|
 |`source`|source file '*.langdef' (required)|*empty*|
@@ -53,7 +53,7 @@ langdef -t t3 -s /path/to/langdef/messages.langdef -d /tmp
 |`forceTarget`|Whether to always add 'target' entry or not|false|
 
 
-##'langdef' format
+## 'langdef' format
 Once upon the day, while I was working silently in my chamber as a TYPO3 Developer, the xlf language file format was introduced. I fount it quite complex to manage different files for each language. 
 
 So I created the 'langdef' format for my work and a parser to convert it to xlf format.
@@ -104,13 +104,13 @@ Here is a small example:
 	</file>
 </langDef>
 ```
-###Description
+### Description
 Root tag must be `langdef`.
 The `<file>` tag is the first child and is also present in target xlf file. You can use the option `copyFileAttributes` to adjust 
 whether to copy its attributes to target file or not.
 There can be multiple `entry` tags. Each entry represents an entry in the target language file.
 
-####`entry`
+#### `entry`
 
 Each Entry must have a per file unique `id` tag. Duplicate entries are triggering warnings and only the last one is used.
 The first subtag must be a `source` tag, optionally followed by a `translation` tag.
