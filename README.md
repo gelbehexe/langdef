@@ -5,7 +5,7 @@ Converts *.langdef files to *.xlf language files
 ## Install
 
 ```
-$ npm install langdef
+$ npm install @gelbehexe/langdef
 ```
  
 ## Usage
