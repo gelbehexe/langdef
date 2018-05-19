@@ -19,7 +19,18 @@ const getOptions = require('../lib/GetOptions');
 const main = function(args) {
 	"use strict";
 
-	let options = getOptions(args);
+	let options;
+	try {
+		options = getOptions(args);
+	} catch (e) {
+		if (typeof e === 'object' && e.hasOwnProperty('message')) {
+			console.error(e['message']);
+		} else {
+			console.error(e);
+		}
+		require('../lib/ShowUsage')();
+		return;
+	}
 
 	if (options.hasOwnProperty('version')) {
 		require('../lib/ShowVersion')();
