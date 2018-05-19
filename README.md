@@ -52,6 +52,12 @@ langdef -t t3 -s /path/to/langdef/messages.langdef -d /tmp
 |`addTargetLang`|Whether to add a 'target-language' attribute or not|false|
 |`forceTarget`|Whether to always add 'target' entry or not|false|
 
+#### Options for cli-only
+
+Show all options by using the help argument:
+```bash
+langdef --help
+```
 
 ## 'langdef' format
 Once upon the day, while I was working silently in my chamber as a TYPO3 Developer, the xlf language file format was introduced. I fount it quite complex to manage different files for each language. 
