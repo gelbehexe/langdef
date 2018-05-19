@@ -2,21 +2,25 @@
   {
 	"name": "help",
 	"alias": "h",
-	"description": "Print usage information"
+	"description": "Print usage information (only cli)"
   },
   {
 	"name": "version",
 	"alias": "v",
-	"description": "Print current version"
+	"description": "Print current version (only cli)"
   },
   {
 	"name": "listenv",
-	"description": "List environments"
+	"description": "List environments (only cli)"
   },
   {
 	"name": "showenv",
 	"type": "String",
-	"description": "Show environments"
+	"description": "Show environments (only cli)"
+  },
+  {
+	"name": "verbose",
+	"description": "Be verbose (only cli)"
   },
   {
 	"name": "source",

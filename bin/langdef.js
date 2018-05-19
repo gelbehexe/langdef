@@ -59,10 +59,19 @@ const main = function(args) {
 
 	const Langdef = require('../');
 
+	const verbose = options.hasOwnProperty('verbose');
 
-	Langdef(options)
-		.then(function() {
-			console.debug('DONE');
+	const callback = verbose ?
+		function(sourceFile,destFile) {
+			console.log(`${destFile} written`);
+		} :
+		function() {};
+
+	Langdef(options,callback)
+		.then(function(sourceFile) {
+			if (verbose) {
+				console.log(`\t-> ${sourceFile} processed`);
+			}
 		},function (err) {
 			console.error(err);
 			require('../lib/ShowUsage')();
