@@ -23,6 +23,12 @@
 	"description": "Be verbose (only cli)"
   },
   {
+	"name": "quite",
+	"alias": "q",
+	"type": "Boolean",
+	"description": "Wether warnings are shown or not (only cli)"
+  },
+  {
 	"name": "source",
 	"alias": "s",
 	"type": "String",
