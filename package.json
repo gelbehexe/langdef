@@ -19,6 +19,15 @@
     "url": "https://github.com/gelbehexe/langdef/issues"
   },
   "homepage": "https://github.com/gelbehexe/langdef",
+  "keywords": [
+    "langdef",
+    "xliff",
+    "language",
+    "localization",
+    "generator",
+    "locallang",
+    "xml"
+  ],
   "dependencies": {
     "chalk": "^2.4.1",
     "command-line-args": "^5.0.2",
