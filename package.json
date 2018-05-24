@@ -1,6 +1,6 @@
 {
   "name": "@gelbehexe/langdef",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Converts *.langdef files to *.xlf files",
   "main": "index.js",
   "bin": {
