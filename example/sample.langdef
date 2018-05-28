@@ -29,6 +29,12 @@
 				<fr><![CDATA[Bonjour <strong>Monde</strong>]]></fr>
 			</translations>
 		</entry>
+		<entry id="contains_umlauts">
+			<source>Helloli</source>
+			<translations>
+				<de>Hallöchen</de>
+			</translations>
+		</entry>
 		<entry id="only_english">
 			<source>Only English</source>
 		</entry>
